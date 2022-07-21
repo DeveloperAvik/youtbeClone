@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawsome -->
+    <script
+      src="https://kit.fontawesome.com/42a182743f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Youtube App</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="searchBar">
+      <div class="logo">
+        <i class="fa-brands fa-youtube"></i>
+        <p>Youtube</p>
+      </div>
+      <form>
+        <input type="text" placeholder="Search..." />
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+      <div class="iconsContainer">
+        <!-- microphone -->
+        <div class="icon">
+          <i class="fa-solid fa-microphone"></i>
+        </div>
+
+        <!-- video -->
+        <div class="icon">
+          <i class="fa-solid fa-video"></i>
+        </div>
+
+        <!-- numpad -->
+        <div class="icon">
+          <img src="./img/numpad.png" alt="numpad" />
+        </div>
+
+        <!-- numpad -->
+        <div class="icon">
+          <i class="fa-regular fa-bell"></i>
+        </div>
+        <!-- numpad -->
+        <div class="icon">
+          <img src="./img/photo_2022-07-03_23-18-04.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!--end  Navbar -->
+
+    <!-- video conatainer -->
+    <div class="vidContainer">
+      <!-- err -->
+      <div class="err">
+        <div>
+          <i class="fa-solid fa-circle-exclamation"></i>
+        </div>
+        <p>Request limit exceeded</p>
+      </div>
+      <!-- loading -->
+      <div class="loading">
+        <p>loading please wait...</p>
+      </div>
+      <!-- video-->
+
+      <!-- <div class="vidItem">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/watch?v=5ewiFKvXrGc"
+          frameborder="0"
+        >
+        </iframe>
+
+        <p class="title">Title</p>
+        <p class="channel">channel</p>
+        <p class="desc">Description</p>
+        <p class="date">date</p>
+      </div> -->
+      <!-- search icon -->
+    </div>
+    <!-- end video conatainer -->
+    <img class="searchIcon" src="./img/search.png" alt="search" />
+
+    <!-- js -->
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
